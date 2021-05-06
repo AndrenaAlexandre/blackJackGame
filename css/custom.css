@@ -11,7 +11,7 @@
     padding: 10px;
     flex-wrap: wrap;
     justify-content: space-around;
-    background: url("/blackjack/images/bgChips.jpeg");
+    background: url("/images/bgChips.jpeg");
     color:  rgba(253, 209, 13, 0.568);
     text-shadow: -1px 0 black, 0 1px black;
     height: 600px;
@@ -21,7 +21,7 @@
     border: 3px solid rgba(253, 209, 13, 0.568);
     padding: 10px;
     flex-wrap: wrap;
-    background: url("/blackjack/images/pokerTable.jpg");
+    background: url("/images/pokerTable.jpg");
     background-repeat: stretch;
     height: 75px;
 }
