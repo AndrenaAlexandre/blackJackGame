@@ -1,0 +1,92 @@
+
+.container-5{
+    border: 8px solid rgb(0,255,191);
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-bj-row-1{
+    border: 3px solid rgba(253, 209, 13, 0.568);
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: url("/blackjack/images/bgChips.jpeg");
+    color:  rgba(253, 209, 13, 0.568);
+    text-shadow: -1px 0 black, 0 1px black;
+    height: 600px;
+}
+
+.flex-bj-row-2{
+    border: 3px solid rgba(253, 209, 13, 0.568);
+    padding: 10px;
+    flex-wrap: wrap;
+    background: url("/blackjack/images/pokerTable.jpg");
+    background-repeat: stretch;
+    height: 75px;
+}
+
+.flex-bj-row-3{
+    border: 3px solid rgba(253, 209, 13, 0.568);
+    padding: 10px;
+    flex-wrap: wrap;
+    height: 75px;
+}
+
+.addSpecial{
+    border: 2px solid rgba(7, 136, 67, 0.801);
+    border-radius: 10px;
+    background-color:rgba(255, 235, 205, 0.198);
+    height: 48%;
+}
+/* .flex-bj-row-1 div{
+    border: 2px solid blanchedalmond;
+    padding: 10px;
+    text-align: center; 
+    background-color: ;
+    flex:2;
+} */
+
+.flex-bj-row-1 img{
+    height: 25%;
+    padding:10px;
+}
+
+.flex-bj-row-2 button{
+    border: solid blanchedalmond;
+    /* padding-right: 25px; */
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+table, th, td{
+    padding: 5px;
+    border: 2px solid black;
+    margin-right: 1px;
+}
+
+.imgHeight{
+    max-width: 270%;
+    max-height: 270%;
+}
+
+h1, h2, h4{
+    text-align: center;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+/* .flex-bj-row-2 div{
+    border: 4px solid cornflowerblue;
+    padding: 10px;
+} */
+
+.z10{
+    z-index: 10;
+}
+
+.z20{
+    z-index: 20;
+}
