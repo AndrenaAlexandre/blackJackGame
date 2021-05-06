@@ -232,14 +232,10 @@ standButton.addEventListener('click', e=>{
             alert('House wins!');
             }
         }
-        if (dealerTotalPoints > 21){
-        displayDealerPoints();
-        alert('Dealer Busts! You win!');
-        }
     }
     if (dealerTotalPoints > 21){
         displayDealerPoints();
-        alert('You win!');
+        alert('Dealer Busts! You win!');
     }
 })
 
