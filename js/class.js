@@ -198,8 +198,10 @@ hitButton.addEventListener('click', e=>{
     }
     else{
         displayPoints();
+        displayDealerPoints();
         alert("You got 21! Blackjack!");
         hitButton.setAttribute('disabled', true);
+        standButton.setAttribute('disabled', true);
     }
 })
 
@@ -234,6 +236,10 @@ standButton.addEventListener('click', e=>{
         displayDealerPoints();
         alert('Dealer Busts! You win!');
         }
+    }
+    if (dealerTotalPoints > 21){
+        displayDealerPoints();
+        alert('You win!');
     }
 })
 
